@@ -70,3 +70,20 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+
+alias gl="git log --oneline --graph --all"
+alias ll="ls -al"
+alias ls="ls -l"
+alias cds="cd ~/source"
+alias cdn="cds && cd neural5torm"
+alias cdpy="cds && cd python"
+alias jn="cdn; jupyter notebook"
+alias rm='rm -i'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc'; fi
+export GOOGLE_APPLICATION_CREDENTIALS=~/source/neural5torm/gcp/charged-library-402910-5578bc438342.json
