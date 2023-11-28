@@ -9,5 +9,33 @@
     "key": "cmd+shift+v",
     "command": "pasteAndIndent.action",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "extension.changeCase.upper"
+  },
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "-workbench.action.files.saveAll"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "cmd+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "cmd+s",
+    "command": "saveAll"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "-saveAll"
   }
 ]
