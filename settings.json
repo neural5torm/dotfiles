@@ -91,4 +91,5 @@
   "editor.defaultFormatter": "ms-python.black-formatter",
   "tabnine.experimentalAutoImports": true,
   "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.colorTheme": "Quiet Light",
 }
