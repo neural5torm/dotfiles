@@ -3,7 +3,6 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairs": false,
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.python"
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": false,
@@ -17,13 +16,13 @@
   ],
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "emmet.includeLanguages": {
     "erb": "html"
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
-  "explorer.confirmDelete": false,
+  "explorer.confirmDelete": true,
   "files.exclude": {
     "__pycache__": true,
     "_site": true,
@@ -61,35 +60,25 @@
   "notebook.lineNumbers": "on",
   "notebook.markup.fontSize": 14,
   "python.defaultInterpreterPath": "/Users/oliv/.pyenv/versions/3.10.6/envs/lewagon",
-  "python.formatting.provider": "yapf",
   "python.languageServer": "Pylance",
-  "python.linting.enabled": true,
-  "python.linting.flake8Enabled": false,
-  "python.linting.pylintEnabled": true,
   "python.terminal.activateEnvironment": false,
-  "ruby.lint": {
-    "rubocop": true
-  },
   "search.exclude": {
     // Inherits all glob patterns from the `files.exclude` setting.
     "**/.venv": true
   },
   "telemetry.telemetryLevel": "off",
-  "window.restoreWindows": "none",
-  "window.newWindowDimensions": "maximized",
   "workbench.editor.enablePreview": true,
-  "workbench.iconTheme": "vscode-great-icons",
-  "workbench.settings.editor": "json",
-  "workbench.settings.openDefaultSettings": true,
-  "workbench.settings.useSplitJSON": true,
-  "workbench.startupEditor": "newUntitledFile",
   "workbench.panel.defaultLocation": "bottom",
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
-  },
+},
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "ms-python.black-formatter",
   "tabnine.experimentalAutoImports": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.colorTheme": "Quiet Light",
+  "workbench.settings.applyToAllProfiles": [
+    "editor.defaultFormatter"
+  ],
+  "editor.defaultFormatter": "ms-python.autopep8",
+  "editor.formatOnPaste": true,
 }
