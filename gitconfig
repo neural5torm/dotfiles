@@ -55,10 +55,12 @@
   mergeoptions = --no-edit
 
 [pull]
-  rebase = false
+	rebase = true
 
 [init]
   defaultBranch = master
 [user]
 	email = neural5torm@users.noreply.github.com
 	name = Olivier Sbg
+[fetch]
+	prune = true

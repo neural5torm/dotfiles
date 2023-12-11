@@ -14,10 +14,11 @@ alias gg="git log --graph --pretty=format:'%C(auto)%h%Creset %C(cyan)(%cr)%Crese
 alias gl="git log --all --pretty=fuller"
 alias ls="ls -l"
 alias ll="ls -al"
+alias cd..="cd .."
 alias cdc="cd ~/code"
 alias cdn="cdc && cd neural5torm"
 alias cdm="cdc && cd minifigNET"
 alias cdp="cdm && cd mfnet-proj"
 alias cdpy="cdc && cd python"
-alias jn="cdn; jupyter notebook"
+alias jn="jupyter notebook"
 alias rm='rm -i'
