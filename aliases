@@ -12,7 +12,6 @@ alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' &
 
 alias gg="git log --graph --pretty=format:'%C(auto)%h%Creset %C(cyan)(%cr)%Creset %C(green)%an%Creset %s'"
 alias gl="git log --all --pretty=fuller"
-alias ls="ls -l"
 alias ll="ls -al"
 alias cd..="cd .."
 alias cdc="cd ~/code"

@@ -23,7 +23,7 @@ type -a rbenv > /dev/null && eval "$(rbenv init -)"
 
 # Load pyenv (to manage your Python versions)
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init - 2> /dev/null)" && RPROMPT+='[🐍 $(pyenv version-name)]'
+type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init - 2> /dev/null)" && RPROMPT+='[$(pyenv version-name)]'
 
 # Load nvm (to manage your node versions)
 export NVM_DIR="$HOME/.nvm"
@@ -80,5 +80,5 @@ export GOOGLE_APPLICATION_CREDENTIALS=~/code/neural5torm/gcp/charged-library-402
 
 
 export PYTHONPATH="/Users/oliv/code/neural5torm/04-Decision-Science/01-Project-Setup/data-context-and-setup"
-export PATH="/opt/homebrew/opt/llvm@11/bin:$PATH"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 export LLVM_CONFIG="/opt/homebrew/Cellar/llvm@11/11.1.0_4/bin/llvm-config"
