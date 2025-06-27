@@ -1,4 +1,8 @@
-# Get External IP / Internet Speed
+alias cdn="cd ~/code/neural5torm"
+alias p="echo $PATH | tr : \\\n"
+alias va="vi ~/.aliases && z" 
+alias x=exit
+alias z="exec zsh"
 alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
 alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
 
